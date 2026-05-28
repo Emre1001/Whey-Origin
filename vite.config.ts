@@ -2,8 +2,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// base: './' => relative asset paths so it works on GitHub Pages under any repo subpath.
+// base: '/Whey-Origin/' => correct subpath for GitHub Pages deployment
 export default defineConfig({
-  base: './',
+  base: '/Whey-Origin/',
   plugins: [react(), tailwindcss()],
 })
